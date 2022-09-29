@@ -40,6 +40,7 @@
 .content-desc {
   display:block;
   align-items: center;
+  margin-left: 0%;
 }
 
 #desc-name {
@@ -50,18 +51,28 @@
 #desc-loc {
   color: gray;
   font-size: 14px;
+  margin: 0;
 }
 
 #desc-call {
   color: gray;
   font-size: 14px;
+  margin: 0%;
 }
 
 /* rating */
 .content-rating {
   display: flex;
-  align-items: flex-end;
   padding: 2rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#rate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
 
 .rating1 {

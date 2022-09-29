@@ -40,12 +40,14 @@ function App() {
         <img src={pacificLogo} alt='pacificLogo' />
         <div className='content-desc'>
           <p id='desc-name'>Pan Pacific Sonargaon/Dhaka,BD</p>
-          <p id='desc-loc'><LocationOnIcon /> 107 Kazi Nazrul Islam Avenue, Dhaka 1215, Bangladesh</p>
-          <p id='desc-call'><CallIcon /> Panpacific.Com:550-208-0088</p>
+          <p id='desc-loc'><LocationOnIcon />  107 Kazi Nazrul Islam Avenue, Dhaka 1215, Bangladesh</p>
+          <p id='desc-call'><CallIcon />  Panpacific.Com:550-208-0088</p>
         </div>
         <div className='content-rating'>
-          <div className='rating1'>4.5</div>
-          <div className='rating2'>/5</div>
+          <div id='rate'>
+            <div className='rating1'>4.5</div>
+            <div className='rating2'>/5</div>
+          </div>
           <div className='content-icon'>
             <StarIcon />
             <StarIcon />
